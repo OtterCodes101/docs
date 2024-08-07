@@ -19,7 +19,6 @@ Building and flashing your own firmware has the potential to brick your device. 
      - Replacing the default logo (`Documentation/coreboot_logo.bmp`)
      - Changing version string (`CONFIG_LOCALVERSION`)
 5. **Build the ROM**
-   - create build dir: `mkdir -p ~/dev/firmware`
    - `./build-uefi.sh <boardname>`
      - For example, `./build-uefi.sh careena`
      - ROMs will be stored in `~/dev/firmware`
